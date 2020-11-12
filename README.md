@@ -14,7 +14,7 @@ $ py <PATH OF PYTHON FILE> <TOKEN> <CHANNEL ID> "<MESSAGE>"
 
 **Example**
 ```
-file location: C:\Users\kronk\desktop\message spam.py
+file location: C:\Users\kronk\desktop\message-spam.py
 
 token: "msetdfhbae.etadh.xhrstgdsth"
 channel id: 42069
@@ -26,7 +26,7 @@ given that information, the batch file would look like this.
 
 ```bat
 :za warudo
-py C:\Users\kronk\desktop\message spam.py msetdfhbae.etadh.xhrstgdsth 42069 "!d bump"
+py C:\Users\kronk\desktop\message-spam.py msetdfhbae.etadh.xhrstgdsth 42069 "!d bump"
 timeout /t 7205
 goto za warudo
 ```
