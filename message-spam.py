@@ -20,7 +20,7 @@ class Bonk:
 
 
     def execute(self):
-        return requests.post(f'https://discordapp.com/api/v6/channels/{self.channel_id}/messages', headers=self.headers, json={'content': self._generate_message(self.message)})
+        return requests.post(f'https://discordapp.com/api/v9/channels/{self.channel_id}/messages', headers=self.headers, json={'content': self._generate_message(self.message)})
 
     
 def main():
